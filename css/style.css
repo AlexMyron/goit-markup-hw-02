@@ -1,0 +1,99 @@
+/* --hero-color: #ffffff; */
+/* --hero-bg-color: #2F303A; */
+/* --main-bg-color: #E5E5E5; */
+/* --address-color: rgba(255, 255, 255, 0.6);  */
+
+ul {
+  list-style: none;
+}
+
+:root {
+  --accent-color: #2196F3;
+  --second-color: #212121;
+  --first-color: #757575;
+  --hero-footer-bg-color: #2F303A;
+  --main-body-bg-color: #ffffff;
+  --secondary-body-bg-color: #F5F4FA;
+}
+h2, h3 {
+  color: var(--second-color);
+}
+
+/* Header */
+header {
+  background-color: var(--main-body-bg-color);
+}
+
+.logo {
+  color: #000000;
+}
+
+a.logo > span {
+  color: var(--accent-color);
+}
+
+.main-nav .link {
+  color: var(--second-color);
+}
+
+.main-nav .link:hover {
+  color: var(--accent-color);
+}
+
+.address-item a {
+  color: var(--first-color);
+}
+
+.address-item a:hover {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+  background-color: var(--hero-footer-bg-color);
+}
+
+.main-title {
+  color: #ffffff;
+}
+
+.hero .oder-link{
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* Features */
+.features {
+  background-color: var(--main-body-bg-color);
+}
+
+.text {
+  color: var(--first-color);
+}
+
+.features-list h3 {
+  color: var(--second-color);
+}
+
+/* Work */
+.our-work {
+  background-color: var(--main-body-bg-color);
+}
+
+/* Team */
+.our-team {
+  background-color: var(--secondary-body-bg-color);
+}
+
+/* Footer */
+footer {
+  background-color: var(--hero-footer-bg-color);
+}
+
+address .map-link {
+  color: #ffffff;
+}
+
+.contacts-list .contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
