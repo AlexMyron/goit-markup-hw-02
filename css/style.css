@@ -48,19 +48,25 @@ a.logo > span {
   color: var(--accent-color);
 }
 
-.main-nav .link {
+.link {
   color: var(--second-color);
 
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 
   text-decoration: none;
 }
 
-.main-nav .link:hover {
+.link:hover {
   color: var(--accent-color);
+
+  text-decoration: underline;
+}
+
+.main-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .address-item a {
@@ -193,4 +199,15 @@ footer {
   letter-spacing: 0.03em;
 
   text-decoration: none;
+}
+
+/* Portfolio-Page */
+
+.work-list .link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
 }
