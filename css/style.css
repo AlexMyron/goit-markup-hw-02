@@ -2,6 +2,8 @@
 /* --hero-bg-color: #2F303A; */
 /* --main-bg-color: #E5E5E5; */
 /* --address-color: rgba(255, 255, 255, 0.6);  */
+/* Raleway 700  */
+/* Roboto 400 500 700 900 */
 
 ul {
   list-style: none;
@@ -15,6 +17,12 @@ ul {
   --main-body-bg-color: #ffffff;
   --secondary-body-bg-color: #F5F4FA;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
 h2, h3 {
   color: var(--second-color);
 }
@@ -26,6 +34,14 @@ header {
 
 .logo {
   color: #000000;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
 }
 
 a.logo > span {
@@ -34,6 +50,13 @@ a.logo > span {
 
 .main-nav .link {
   color: var(--second-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
 }
 
 .main-nav .link:hover {
@@ -42,6 +65,13 @@ a.logo > span {
 
 .address-item a {
   color: var(--first-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
 }
 
 .address-item a:hover {
@@ -53,13 +83,27 @@ a.logo > span {
   background-color: var(--hero-footer-bg-color);
 }
 
-.main-title {
+.title {
   color: #ffffff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .hero .oder-link{
   color: #ffffff;
   background-color: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  text-decoration: none;
 }
 
 /* Features */
@@ -69,10 +113,21 @@ a.logo > span {
 
 .text {
   color: var(--first-color);
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .features-list h3 {
   color: var(--second-color);
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  
+  text-transform: uppercase
 }
 
 /* Work */
@@ -80,9 +135,36 @@ a.logo > span {
   background-color: var(--main-body-bg-color);
 }
 
+.subtitle {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+
+  text-align: center;
+}
+
 /* Team */
 .our-team {
   background-color: var(--secondary-body-bg-color);
+}
+
+.team-list .names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  text-align: center;
+}
+
+.team-list .text-names {
+  
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  text-align: center;
 }
 
 /* Footer */
@@ -90,10 +172,25 @@ footer {
   background-color: var(--hero-footer-bg-color);
 }
 
-address .map-link {
+.address .map-link {
   color: #ffffff;
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
 }
 
 .contacts-list .contacts {
   color: rgba(255, 255, 255, 0.6);
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
 }
