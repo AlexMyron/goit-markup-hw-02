@@ -58,8 +58,6 @@ a.logo > span {
 
 .link:hover, .link:focus {
   color: var(--accent-color);
-
-  text-decoration: underline;
 }
 
 .nav-menu .link {
@@ -67,6 +65,10 @@ a.logo > span {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.nav-menu .link.current {
+  color: var(--accent-color);
 }
 
 .address-item .link {
