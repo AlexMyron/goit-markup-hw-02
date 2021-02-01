@@ -7,8 +7,8 @@
 
 :root {
   --accent-color: #2196F3;
-  --second-color: #212121;
-  --first-color: #757575;
+  --secondary-color: #212121;
+  --primary-color: #757575;
   --hero-footer-bg-color: #2F303A;
   --main-body-bg-color: #ffffff;
   --secondary-body-bg-color: #F5F4FA;
@@ -19,19 +19,19 @@ ul {
 }
 
 body {
+  color: var(--primary-color);
+  background-color: var(--main-body-bg-color);
+
   font-family: "Roboto", sans-serif;
   font-weight: normal;
+
 }
 
 h2, h3 {
-  color: var(--second-color);
+  color: var(--secondary-color);
 }
 
 /* Header */
-header {
-  background-color: var(--main-body-bg-color);
-}
-
 .logo {
   color: #000000;
 
@@ -49,7 +49,7 @@ a.logo > span {
 }
 
 .link {
-  color: var(--second-color);
+  color: var(--secondary-color);
 
   font-weight: 500;
 
@@ -62,16 +62,14 @@ a.logo > span {
   text-decoration: underline;
 }
 
-.main-nav .link {
+.nav-menu .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
-.address-item a {
-  color: var(--first-color);
-
+.address-item .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -89,7 +87,7 @@ a.logo > span {
   background-color: var(--hero-footer-bg-color);
 }
 
-.title {
+.hero-title {
   color: #ffffff;
 
   font-weight: 900;
@@ -101,9 +99,10 @@ a.logo > span {
   text-transform: uppercase;
 }
 
-.hero .oder-link{
+.hero .oder-button{
   color: #ffffff;
   background-color: var(--accent-color);
+
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -113,20 +112,14 @@ a.logo > span {
 }
 
 /* Features */
-.features {
-  background-color: var(--main-body-bg-color);
-}
-
 .text {
-  color: var(--first-color);
-
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-.features-list h3 {
-  color: var(--second-color);
+.features-list .features-title {
+  color: var(--secondary-color);
 
   font-weight: bold;
   font-size: 14px;
@@ -137,11 +130,7 @@ a.logo > span {
 }
 
 /* Work */
-.our-work {
-  background-color: var(--main-body-bg-color);
-}
-
-.our-work .subtitle {
+.work .subtitle {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -152,11 +141,11 @@ a.logo > span {
 
 
 /* Team */
-.our-team {
+.-team {
   background-color: var(--secondary-body-bg-color);
 }
 
-.team-list .names {
+.team-list-item > .names {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -165,8 +154,7 @@ a.logo > span {
   text-align: center;
 }
 
-.team-list .text-names {
-  
+.team-list-item > .names-text {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -179,7 +167,7 @@ footer {
   background-color: var(--hero-footer-bg-color);
 }
 
-.logo.footer {
+.logo.footer-logo {
   color: #ffffff;
 }
 
@@ -194,7 +182,7 @@ footer {
   text-decoration: none;
 }
 
-.contacts-list .contacts {
+.contacts-item > .contact-link {
   color: rgba(255, 255, 255, 0.6);
 
   font-style: normal;
@@ -219,19 +207,20 @@ footer {
 }
 
 .work-menu .link:hover, .work-menu .link:focus {  
-  background-color: var(--accent-color);
   color: #ffffff;
+  background-color: var(--accent-color);
 
   text-decoration: none;
 }
 
 .work-list .subtitle {
+  color: var(--secondary-color);
+
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 
-  color: var(--second-color);
 }
 
 .work-list .text {
