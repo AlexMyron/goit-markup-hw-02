@@ -22,9 +22,9 @@ body {
   color: var(--primary-color);
   background-color: var(--main-body-bg-color);
 
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
-
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 h2, h3 {
@@ -35,7 +35,7 @@ h2, h3 {
 .logo {
   color: #000000;
 
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -51,6 +51,7 @@ a.logo > span {
 .link {
   color: var(--secondary-color);
 
+  font-family: inherit;
   font-weight: 500;
 
   text-decoration: none;
@@ -61,6 +62,7 @@ a.logo > span {
 }
 
 .nav-menu .link {
+  font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -72,6 +74,7 @@ a.logo > span {
 }
 
 .address-item .link {
+  font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -105,8 +108,8 @@ a.logo > span {
   color: #ffffff;
   background-color: var(--accent-color);
 
-  font-weight: bold;
-  font-size: 16px;
+  font-family: inherit;
+  font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
 
@@ -123,7 +126,7 @@ a.logo > span {
 .features-list .features-title {
   color: var(--secondary-color);
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -133,7 +136,6 @@ a.logo > span {
 
 /* Work */
 .work .subtitle {
-  font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -143,25 +145,19 @@ a.logo > span {
 
 
 /* Team */
-.-team {
+.team {
   background-color: var(--secondary-body-bg-color);
 }
 
 .team-list-item > .names {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
-  text-align: center;
 }
 
 .team-list-item > .names-text {
-  font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
-  text-align: center;
 }
 
 /* Footer */
@@ -176,7 +172,7 @@ footer {
 .address .map-link {
   color: #ffffff;
 
-  font-style: normal;
+  font-family: inherit;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -187,8 +183,8 @@ footer {
 .contacts-item > .contact-link {
   color: rgba(255, 255, 255, 0.6);
 
-  font-style: normal;
-  font-weight: normal;
+  font-family: inherit;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -199,16 +195,14 @@ footer {
 /* _________________ */
 /* Portfolio-Page */
 
-.work-menu-item > .link {
+.work-menu-item > .button {
+  font-family: inherit;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-
-  text-align: center;
 }
 
-.work-menu-item > .link:hover, .work-menu-item > .link:focus {  
+.work-menu-item > .button:hover, .work-menu-item > .button:focus {  
   color: #ffffff;
   background-color: var(--accent-color);
 
@@ -218,14 +212,13 @@ footer {
 .work-list-item > .subtitle {
   color: var(--secondary-color);
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .work-list-item > .text {
-  font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
