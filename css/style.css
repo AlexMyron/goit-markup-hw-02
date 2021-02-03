@@ -173,6 +173,7 @@ footer {
   color: #ffffff;
 
   font-family: inherit;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -184,7 +185,7 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 
   font-family: inherit;
-  font-weight: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
