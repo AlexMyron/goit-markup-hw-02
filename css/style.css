@@ -1,10 +1,3 @@
-/* --hero-color: #ffffff; */
-/* --hero-bg-color: #2F303A; */
-/* --main-bg-color: #E5E5E5; */
-/* --address-color: rgba(255, 255, 255, 0.6);  */
-/* Raleway 700  */
-/* Roboto 400 500 700 900 */
-
 *,
 *::before,
 *::after {
@@ -12,9 +5,10 @@
 }
 
 :root {
-  --accent-color: #2196F3;
-  --secondary-color: #212121;
   --primary-color: #757575;
+  --secondary-color: #212121;
+  --accent-color: #2196F3;
+  --white-color: #ffffff;
   --hero-footer-bg-color: #2F303A;
   --main-body-bg-color: #ffffff;
   --secondary-body-bg-color: #F5F4FA;
@@ -99,7 +93,7 @@ a.logo > span {
 }
 
 .hero-title {
-  color: #ffffff;
+  color: var(--white-color);
 
   font-weight: 900;
   font-size: 44px;
@@ -111,7 +105,7 @@ a.logo > span {
 }
 
 .hero .oder-button{
-  color: #ffffff;
+  color: var(--white-color);
   background-color: var(--accent-color);
 
   font-family: inherit;
@@ -186,11 +180,11 @@ footer {
 }
 
 .logo.footer-logo {
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .address .map-link {
-  color: #ffffff;
+  color: var(--white-color);
 
   font-family: inherit;
   font-style: normal;
@@ -225,7 +219,7 @@ footer {
 
 .work-menu-item > .button:hover,
 .work-menu-item > .button:focus {  
-  color: #ffffff;
+  color: var(--white-color);
   background-color: var(--accent-color);
 
   text-decoration: none;
