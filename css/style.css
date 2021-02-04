@@ -5,6 +5,12 @@
 /* Raleway 700  */
 /* Roboto 400 500 700 900 */
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --accent-color: #2196F3;
   --secondary-color: #212121;
