@@ -109,6 +109,7 @@ a.logo > span {
   background-color: var(--accent-color);
 
   font-family: inherit;
+  font-size: inherit;
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -151,6 +152,7 @@ a.logo > span {
 /* Work */
 .work .subtitle {
   font-size: 36px;
+  font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
 
