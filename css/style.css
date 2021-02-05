@@ -9,6 +9,8 @@
   --secondary-color: #212121;
   --accent-color: #2196F3;
   --white-color: #ffffff;
+  --logo-color: #000000;
+  --contact-link-color: rgba(255, 255, 255, 0.6);
   --hero-footer-bg-color: #2F303A;
   --main-body-bg-color: #ffffff;
   --secondary-body-bg-color: #F5F4FA;
@@ -33,7 +35,7 @@ h2, h3 {
 
 /* Header */
 .logo {
-  color: #000000;
+  color: var(--logo-color);
 
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -50,8 +52,7 @@ a.logo > span {
 
 .link {
   color: var(--secondary-color);
-
-  font-family: inherit;
+  
   font-weight: 500;
 
   text-decoration: none;
@@ -62,7 +63,6 @@ a.logo > span {
 }
 
 .nav-menu .link {
-  font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -74,7 +74,6 @@ a.logo > span {
 }
 
 .address-item .link {
-  font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -109,7 +108,7 @@ a.logo > span {
   background-color: var(--accent-color);
 
   font-family: inherit;
-  font-size: inherit;
+  font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -188,7 +187,6 @@ footer {
 .address .map-link {
   color: var(--white-color);
 
-  font-family: inherit;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -198,9 +196,8 @@ footer {
 }
 
 .contacts-item > .contact-link {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--contact-link-color);
 
-  font-family: inherit;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -214,6 +211,7 @@ footer {
 
 .work-menu-item > .button {
   font-family: inherit;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.03em;
@@ -237,6 +235,7 @@ footer {
 }
 
 .work-item > .text {
+  font-size: inherit;
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
