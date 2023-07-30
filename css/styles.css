@@ -43,7 +43,7 @@ body {
 }
 
 .logo-footer .logo-accent {
-  color: var(--white-color);
+  color: var(--primary-background-color);
 }
 
 /* == Header section == */
@@ -102,7 +102,7 @@ body {
 
 .hero__button:hover,
 .hero__button:focus {
-  color: var(--button-hover-color);
+  background-color: var(--button-hover-color);
 }
 /* == Feature section == */
 .features__title {
