@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Web Studio Portfolio page">
   <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./css/styles.css">
@@ -14,30 +16,29 @@
 <body>
   <header class="header">
     <nav class="header__nav">
-      <a class="logo" href="./index.html">
-        <span class="logo-left">Web</span><span class="logo-right">Studio</span>
+      <a class="logo-header link" href="./index.html">
+        Web<span class="logo-accent">Studio</span>
       </a>
-      <ul class="header__nav-list">
-        <li class="header__nav-item"><a class="header__nav-link" href="./index.html">Studio</a></li>
-        <li class="header__nav-item"><a class="header__nav-link" href="./portfolio.html">Portfolio</a></li>
-        <li class="header__nav-item"><a class="header__nav-link" href="">Contacts</a></li>
+      <ul class="list">
+        <li class="header__nav-item"><a href="./index.html" class="header__nav-link link">Studio</a></li>
+        <li class="header__nav-item"><a href="./portfolio.html" class="header__nav-link link">Portfolio</a></li>
+        <li class="header__nav-item"><a href="" class="header__nav-link link">Contacts</a></li>
       </ul>
     </nav>
     <address class="header__address">
-      <ul class="header__address-list">
-        <li class="header__address-item"><a class="header__address-link"
+      <ul class="header__address-list list">
+        <li class="header__address-item"><a class="header__address-link link"
             href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li class="header__address-item"><a class="header__address-link" href="tel:+110001111111">+11 (000)
+        <li class="header__address-item"><a class="header__address-link link" href="tel:+110001111111">+11 (000)
             111-11-11</a>
         </li>
       </ul>
     </address>
   </header>
   <main>
-    <h1>Our Portfolio</h1>
-    <section class="filter">
-      <h2>Protfolio Filter</h2>
-      <ul class="filter__list">
+    <section class="galery">
+      <h1>Our Portfolio</h1>
+      <ul class="filter list">
         <li class="filter__item">
           <button class="filter__button" type="button">
             All
@@ -64,70 +65,67 @@
           </button>
         </li>
       </ul>
-    </section>
 
-    <section class="galery">
-      <h2>Portfolio Galery</h2>
-      <ul class="galery__list">
+      <ul class="galery list">
         <li class="galery__item">
-          <a class="galery__link" href="">
-            <img class="galery__image" src="./images/banking.jpg" width="360" alt="Banking App Interface Concept">
+          <a class="galery__link link" href="">
+            <img src="./images/banking.jpg" class="galery__image" width="360" alt="Banking App Interface Concept">
             <h2 class="galery__title">Banking App Interface Concept</h2>
             <p class="galery__text">App</p>
           </a>
         </li>
         <li class="galery__item">
-          <a class="galery__link" href="">
-            <img class="galery__image" src="./images/payment.jpg" width="360" alt="Cashless Payment">
+          <a class="galery__link link" href="">
+            <img src="./images/payment.jpg" class="galery__image" width="360" alt="Cashless Payment">
             <h2 class="galery__title">Cashless Payment</h2>
             <p class="galery__text">Marketing</p>
           </a>
         </li>
         <li class="galery__item">
-          <a class="galery__link" href="">
-            <img class="galery__image" src="./images/meditation.jpg" width="360" alt="Meditation App">
+          <a class="galery__link link" href="">
+            <img src="./images/meditation.jpg" class="galery__image" width="360" alt="Meditation App">
             <h2 class="galery__title">Meditation App</h2>
             <p class="galery__text">App</p>
           </a>
         </li>
         <li class="galery__item">
-          <a class="galery__link" href="">
-            <img class="galery__image" src="./images/taxi.jpg" width="360" alt="Taxi Service">
+          <a class="galery__link link" href="">
+            <img src="./images/taxi.jpg" class="galery__image" width="360" alt="Taxi Service">
             <h2 class="galery__title">Taxi Service</h2>
             <p class="galery__text">Marketing</p>
           </a>
         </li>
         <li class="galery__item">
-          <a class="galery__link" href="">
-            <img class="galery__image" src="./images/screens.jpg" width="360" alt="Screen Illustrations">
+          <a class="galery__link link" href="">
+            <img src="./images/screens.jpg" class="galery__image" width="360" alt="Screen Illustrations">
             <h2 class="galery__title">Screen Illustrations</h2>
             <p class="galery__text">Design</p>
           </a>
         </li>
         <li class="galery__item">
-          <a class="galery__link" href="">
-            <img class="galery__image" src="./images/courses.jpg" width="360" alt="Online Courses">
+          <a class="galery__link link" href="">
+            <img src="./images/courses.jpg" class="galery__image" width="360" alt="Online Courses">
             <h2 class="galery__title">Online Courses</h2>
             <p class="galery__text">Marketing</p>
           </a>
         </li>
         <li class="galery__item">
-          <a class="galery__link" href="">
-            <img class="galery__image" src="./images/insta-stories.jpg" width="360" alt="Instagram Stories Concept">
+          <a class="galery__link link" href="">
+            <img src="./images/insta-stories.jpg" class="galery__image" width="360" alt="Instagram Stories Concept">
             <h2 class="galery__title">Instagram Stories Concept</h2>
             <p class="galery__text">Design</p>
           </a>
         </li>
         <li class="galery__item">
-          <a class="galery__link" href="">
-            <img class="galery__image" src="./images/food.jpg" width="360" alt="Organic Food">
+          <a class="galery__link link" href="">
+            <img src="./images/food.jpg" class="galery__image" width="360" alt="Organic Food">
             <h2 class="galery__title">Organic Food</h2>
             <p class="galery__text">Web Site</p>
           </a>
         </li>
         <li class="galery__item">
-          <a class="galery__link" href="">
-            <img class="galery__image" src="./images/coffee.jpg" width="360" alt="Fresh Coffee">
+          <a class="galery__link link" href="">
+            <img src="./images/coffee.jpg" class="galery__image" width="360" alt="Fresh Coffee">
             <h2 class="galery__title">Fresh Coffee</h2>
             <p class="galery__text">Web Site</p>
           </a>
@@ -136,8 +134,8 @@
     </section>
   </main>
   <footer class="footer">
-    <a class="logo logo-footer" href="./index.html">
-      <span class="logo-left">Web</span><span class="logo-right">Studio</span>
+    <a class="logo-footer link" href="./index.html">
+      Web<span class="logo-accent">Studio</span>
     </a>
     <p class="footer__slogan">
       Increase the flow of customers and sales for your business with digital
